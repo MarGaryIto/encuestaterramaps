@@ -1,9 +1,9 @@
 <?php 
 function conexion(){
-	$servidor="z12itfj4c1vgopf8.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
-	$usuario="a475y0a742z9kxy5";
-	$password="qfq6hvbjqb8po5ki";
-	$bd="ost4g6yz9kex2re7";
+	$servidor="i943okdfa47xqzpy.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
+	$usuario="q923e2k5av0o6g3e";
+	$password="dw6rzwed0y0sbv32";
+	$bd="nob4xoafqpyvdedq";
 	$conexion=mysqli_connect($servidor,$usuario,$password,$bd);
 	return $conexion;
 } ?>
