@@ -8,10 +8,10 @@ class DB{
     private $charset;
 
     public function __construct(){
-        $this->host     = 'z12itfj4c1vgopf8.cbetxkdyhwsb.us-east-1.rds.amazonaws.com';
-        $this->db       = 'ost4g6yz9kex2re7';
-        $this->user     = 'a475y0a742z9kxy5';
-        $this->password = 'qfq6hvbjqb8po5ki';
+        $this->host     = 'i943okdfa47xqzpy.cbetxkdyhwsb.us-east-1.rds.amazonaws.com';
+        $this->db       = 'nob4xoafqpyvdedq';
+        $this->user     = 'q923e2k5av0o6g3e';
+        $this->password = 'dw6rzwed0y0sbv32';
         $this->charset  = 'utf8mb4';
     }
 
