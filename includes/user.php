@@ -8,7 +8,7 @@ class User extends DB{
     private $username;
 
     public function userExists($user, $pass){
-        $query = $this->connect()->prepare('SELECT * FROM aplicador WHERE usuario = :user AND contraseña = :pass');
+        $query = $this->connect()->prepare('SELECT * FROM aplicador WHERE usuario = :user AND contrasena = :pass');
         $query->execute(['user' => $user, 'pass' => $pass]);
 
         if($query->rowCount()){
